@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Pharmacy</title>
+ <style>
+            *
+            {
+                margin: 0px;
+                padding: 0px;
+            }
+            .container ul{
+               list-style: none;
+            }
+            .container ul li{
+                background-color: aquamarine;
+                width: 120px;
+                height: 60px;
+                border:1px solid white;
+                font-size: 20px;
+                text-align: center;
+                float: left;
+                line-height: 50px;
+                position: relative;
+            }
+            .container ul li:hover
+            {
+                background-color: aquamarine;
+            }
+            .container ul ul{
+              display: none;
+            }
+   .container ul li:hover >ul{
+    display: block;
+   }
+   .container ul ul ul{
+    margin-left: 120px;
+    top:0px;
+    position: absolute;
+    
+   }
+</style>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- start nav bar here -->
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index1.html">Online Pharmacy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="aboutus.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register1.html">Register</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="login1.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.jsp">Logout</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="product.html">Our Products</a>
+        </li>
+      
+      </ul>
+    </div>
+  </div>
+</nav>
+<marquee><h1>******* TT Online Pharmacy ********</h1></marquee>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="resources//images//bg.jpg" class="d-block w-100" alt="..." >
+    </div>
+    <div class="carousel-item">
+      <img src="resources//images//img6.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="resources//images//img7.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</body>
+</html>
